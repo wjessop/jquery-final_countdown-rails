@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/juanitofatas/jquery-final_countdown-rails'
   s.license     = 'MIT'
 
-  s.add_dependency 'railties', '>= 3.0', '< 5.0'
+  s.add_dependency 'railties', '>= 3.0', '< 5.1'
   s.add_dependency 'thor',     '>= 0.14', '< 2.0'
 
   s.files        = `git ls-files -z`.split("\x0")
